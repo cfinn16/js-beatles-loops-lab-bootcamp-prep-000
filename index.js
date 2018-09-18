@@ -22,11 +22,11 @@ return arr;
 
 function iLoveTheBeatles(num) {
   var arr = [];
-  var i = -1;
+  var i = 0;
   
   do {
     arr.unshift("I love the Beatles!");
-    i++;
+    i = i + 1;
   } while (i < 15);
   
   return arr;
