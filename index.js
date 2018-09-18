@@ -12,7 +12,7 @@ function johnLennonFacts(facts) {
   var arr = [];
   
   var i = facts.length;
-  while (i > 0) {
+  while (i > -1) {
   arr.unshift(facts[i] + "!!!");  
   i--;
 }
