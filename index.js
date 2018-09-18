@@ -22,6 +22,7 @@ return arr;
 
 function iLoveTheBeatles(num) {
   var arr = [];
+  var i = 0;
   
   
 }
