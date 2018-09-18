@@ -13,8 +13,8 @@ function johnLennonFacts(facts) {
   
   var i = facts.length;
   while (i >= 0) {
+    i--;
   arr.unshift(facts[i] + "!!!");  
-  i--;
 }
 
 return arr;
